@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+#box1 {
+    text-align: center;
+    color: white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+#pic1 {
+    border-right: 3px solid white;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 515px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
