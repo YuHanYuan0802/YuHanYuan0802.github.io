@@ -116,7 +116,7 @@ a {
     justify-content: space-around;
 }
 
-.footer1 {
+.column4 {
     width: 25%;
 }
 
@@ -125,7 +125,7 @@ a {
         flex-direction: column;
     }
 
-    .footer1 {
+    .column4 {
         width: 100%;
     }
 
