@@ -1,10 +1,17 @@
+.content{
+    max-width: 720px;
+    min-width: 100px;
+    margin: auto;
+    padding: 20px;
+    background-color: grey;
+}
+
 .container1 {
     max-width: 720px;
     min-width: 100px;
     display: flex;
     flex: 1;
     margin: auto;
-    margin-top: 20px;
     justify-content: space-between;
     background-color: #ddd;
 }
@@ -28,9 +35,7 @@
 #menu {
     margin-left: auto;
     text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
-    border: black solid 2.5px;
+    background-color: #ddd;
 }
 
 .slideshow {
@@ -38,9 +43,6 @@
     margin-top: 20px;
     max-width: 720px;
     min-width: 100px;
-    display: flex;
-    flex: 1;
-    justify-content: space-evenly;
     text-align: center;
     background-color: #ddd;
     padding-top: 15px;
@@ -51,8 +53,23 @@
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    height: 120px;
-    border: black solid 2.5px;
+}
+
+#img{
+    max-width: 100%;
+    height: auto;
+}
+
+.feat{
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+h4{
+    background-color: #ddd;
+    padding: 60px;
 }
 
 .container2 {
@@ -104,5 +121,11 @@
     #text {
         font-size: 60%;
     }
+}
 
+@media screen and (max-width: 755px) {
+    .feat{
+        flex-direction: column;
+        text-align: center;
+    }
 }
