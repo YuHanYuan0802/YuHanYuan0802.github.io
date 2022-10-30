@@ -1,3 +1,11 @@
+.content{
+    max-width: 720px;
+    min-width: 100px;
+    margin: auto;
+    padding: 20px;
+    background-color: grey;
+}
+
 .container1 {
     max-width: 720px;
     min-width: 100px;
