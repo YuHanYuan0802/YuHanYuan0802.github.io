@@ -84,7 +84,7 @@ a {
     color: blue;
 }
 
-a:hover {
+.alink:hover {
     background-color: lightpink;
 }
 
