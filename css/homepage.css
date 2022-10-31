@@ -111,3 +111,12 @@ a:hover{
     padding-top: 90px;
     padding-bottom: 30px;
 }
+
+@media screen and (max-width: 500px) {
+    .main{
+        flex-direction: column;
+    }
+    .mypic{
+        text-align: center;
+    }
+}
