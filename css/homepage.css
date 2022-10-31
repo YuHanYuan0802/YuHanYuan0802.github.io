@@ -1,7 +1,7 @@
 body{
     background-color: #ddd;
     margin: 0px;
-    min-width: 1024px;
+    /* min-width: 1024px; */
 }
 
 .header{
@@ -46,12 +46,13 @@ body{
 .bgmain{
     margin-top: 50px;
     background-color: white;
-    padding: 50px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .main{
+    margin-left: 90px;
+    margin-right: 90px;
     background-color: white;
     display: flex;
     flex: 1;
@@ -112,11 +113,29 @@ a:hover{
     padding-bottom: 30px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1180px) {
     .main{
         flex-direction: column;
     }
+
     .mypic{
+        padding: 0px;
         text-align: center;
+    }
+
+    #selfimg{
+        width: 100%;
+        height: auto;
+    }
+
+    .logoimg{
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    p{
+        font-size: 75%;
     }
 }
