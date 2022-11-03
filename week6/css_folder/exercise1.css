@@ -1,0 +1,79 @@
+.container {
+    position: relative;
+}
+
+#logotext{
+    color: red;
+}
+
+#img1 {
+    width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+#centericon{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.nav{
+    display: flex;
+    gap: 5px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 5px;
+    left: 5px;
+    background-color: white;
+}
+
+.btmleft {
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    display: flex;
+}
+
+.btmright {
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    width: 350px;
+    height: 200px;
+    border: black dashed 2px;
+    padding-left: 10px;
+}
+
+#br{
+    color: red;
+}
+
+.center {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#earthlogo{
+    text-align: center;
+}
+
+#textlogo{
+    text-align: center;
+    margin-left: 15px;
+}
