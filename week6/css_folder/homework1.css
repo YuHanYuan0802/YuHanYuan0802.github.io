@@ -84,7 +84,7 @@ body {
 #btnmouse {
     border-radius: 48%;
     width: 40px;
-    height: 40px;
+    height: 45px;
     padding: 15px;
     padding-left: 20px;
     padding-right: 20px;
@@ -108,4 +108,64 @@ body {
 a {
     text-decoration: none;
     color: white;
+}
+
+/* Container2 */
+.leftpic{
+    grid-area: leftpic;
+    margin-top: 80px;
+}
+
+.context2{
+    grid-area: context2;
+    text-align: left;
+    margin: auto;
+    margin-left: 0%;
+    margin-top: 30%;
+    padding-right: 100px;
+}
+
+#biolink{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+#whoweare{
+    margin-top: 20px;
+    font-size: 55px;
+    margin-bottom: 0%;
+}
+
+#loremmedia{
+    font-size: 20px;
+}
+
+.btn2 {
+    margin: auto;
+    background-image: url(../img/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    padding-top: 11px;
+}
+
+#btn2text {
+    margin: auto;
+    margin-left: 65px;
+    font-size: 20px;
+    color: white;
+}
+
+.container2{
+    margin-top: 10px;
+    display: grid;
+    grid-template-areas: 
+    'leftpic context2'
+    ;
+    text-align: center;
+    background-image: url(../img/who\ we\ are\ background@2x.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: 700px;
+    background-position-y: 110px;
 }
