@@ -72,7 +72,7 @@ body {
     grid-area: group1423;
 }
 
-#group1423png{
+#group1423png {
     width: 65%;
     height: auto;
 }
@@ -110,34 +110,39 @@ a {
     color: white;
 }
 
-/* Container2 */
-.leftpic{
+/* container2 */
+.leftpic {
     grid-area: leftpic;
     margin-top: 80px;
 }
 
-.context2{
+#imgleftpic {
+    width: 100%;
+    height: auto;
+}
+
+.context2 {
     grid-area: context2;
     text-align: left;
     margin: auto;
-    margin-left: 0%;
+    margin-left: 10%;
     margin-top: 30%;
     padding-right: 100px;
 }
 
-#biolink{
+#biolink {
     text-decoration: none;
     color: blue;
     font-size: 20px;
 }
 
-#whoweare{
+#whoweare {
     margin-top: 20px;
     font-size: 55px;
     margin-bottom: 0%;
 }
 
-#loremmedia{
+#loremmedia {
     font-size: 20px;
 }
 
@@ -156,11 +161,11 @@ a {
     color: white;
 }
 
-.container2{
+.container2 {
     margin-top: 10px;
     display: grid;
-    grid-template-areas: 
-    'leftpic context2'
+    grid-template-areas:
+        'leftpic context2'
     ;
     text-align: center;
     background-image: url(../img/who\ we\ are\ background@2x.png);
@@ -168,4 +173,150 @@ a {
     background-attachment: scroll;
     background-position-x: 700px;
     background-position-y: 110px;
+}
+
+/* container3 */
+.hdctn3 {
+    text-align: left;
+    padding-left: 150px;
+}
+
+#ourservices {
+    margin-bottom: 0%;
+    font-size: 25px;
+    color: blue;
+}
+
+#whatweoffer {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.line1 {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 100px;
+    grid-area: line1;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.line2 {
+    margin-left: 120px;
+    margin-right: 120px;
+    grid-area: line2;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card {
+    border-radius: 50px;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    box-shadow: 0px 5px 5px lightblue;
+    margin-bottom: 140px;
+    flex: 1;
+    background-color: white;
+}
+
+#cardimg {
+    width: 30%;
+    height: auto;
+}
+
+.card>h1 {
+    text-align: left;
+    font-size: 17px;
+    margin-top: 35px;
+    margin-bottom: 24px;
+}
+
+.card>p {
+    text-align: left;
+}
+
+.btn3 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.btn3>a {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-image: url(../img/Rectangle\ 8@2x.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 10px;
+}
+
+.btn3-1 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.btn3-1>a {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-image: url(../img/Rectangle\ 8@2x.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 10px;
+}
+
+.btn3-2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.btn3-2>a {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-image: url(../img/Rectangle\ 8@2x.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 10px;
+}
+
+.btn3-3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.btn3-3>a {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-image: url(../img/Rectangle\ 8@2x.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 10px;
+}
+
+.container3 {
+    margin-top: 150px;
+    display: grid;
+    grid-template-areas:
+        'hdctn3 hdctn3 hdctn3'
+        'line1 line1 line1'
+        'line2 line2 line2'
+    ;
+    background-image: url(../img/background@2x.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-y: 350px;
 }
