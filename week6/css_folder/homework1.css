@@ -29,13 +29,13 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding-left: 50px;
+    padding-left: 80px;
     margin-top: 250px;
 }
 
 .context1 {
     margin-top: 90px;
-    padding-left: 70px;
+    padding-left: 100px;
     grid-area: context1;
     text-align: left;
     font-size: 30px;
@@ -73,7 +73,7 @@ body {
 }
 
 #group1423png{
-    width: 100%;
+    width: 65%;
     height: auto;
 }
 
