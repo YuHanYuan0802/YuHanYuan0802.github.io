@@ -72,6 +72,11 @@ body {
     grid-area: group1423;
 }
 
+#group1423png{
+    width: 100%;
+    height: auto;
+}
+
 .mouse {
     grid-area: mouse;
 }
