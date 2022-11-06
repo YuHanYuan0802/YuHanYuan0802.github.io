@@ -320,3 +320,99 @@ a {
     background-attachment: scroll;
     background-position-y: 350px;
 }
+
+/* container4 */
+.hdctn4 {
+    grid-area: hdctn4;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#pricing {
+    margin-bottom: 0%;
+    font-size: 25px;
+    color: blue;
+}
+
+#ourpricing {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.line3 {
+    grid-area: line3;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cardforctn4 {
+    margin-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 6px 8px #e0dafe;
+}
+
+.cardforctn4>h1 {
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.cardforctn4>p {
+    margin-top: 80px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.cardforctn4>h2 {
+    font-size: 40px;
+    color: blue;
+    margin-bottom: 50px;
+}
+
+.btn4 {
+    margin: auto;
+    background-image: url(../img/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: center;
+    padding-bottom: 50px;
+    padding-top: 11px;
+}
+
+.btn4white {
+    margin: auto;
+    border: blue solid 2px;
+    border-radius: 50px;
+    max-width: 216px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#btn4text {
+    margin: auto;
+    font-size: 20px;
+    color: white;
+}
+
+#btn4textblack {
+    margin: auto;
+    font-size: 20px;
+    color: black;
+}
+
+.container4 {
+    display: grid;
+    grid-template-areas:
+        'hdctn4 hdctn4 hdctn4'
+        'line3 line3 line3'
+    ;
+    background-color: #eceaff;
+    padding-bottom: 150px;
+}
