@@ -416,3 +416,93 @@ a {
     background-color: #eceaff;
     padding-bottom: 150px;
 }
+
+/* container5 */
+.news{
+    grid-area: news;
+    text-align: center;
+}
+
+.news>h2{
+    margin-bottom: 0%;
+    font-size: 25px;
+    color: blue;
+}
+
+.news>h1{
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.emailbar{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+.email{
+    background-color: #f6f7fb;
+    padding-left: 50px;
+    padding-right: 300px;
+    border-radius: 15px;
+    color: #b3b4b5;
+}
+
+.btn5{
+    margin-top: 3px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: url(../img/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+}
+
+#btn5text{
+    margin: auto;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+
+.footer>div{
+    border: black solid 2px;
+}
+
+.ftr1>h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.ftr1>h3{
+    font-size: 35px;
+    margin-bottom: 0%;
+    margin-bottom: 25px;
+}
+
+.btmlogo{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.container5{
+    display: grid;
+    grid-template-areas: 
+    'news news news news'
+    'footer footer footer footer'
+    ;
+    padding-top: 100px;
+}
