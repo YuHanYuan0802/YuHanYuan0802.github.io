@@ -418,23 +418,23 @@ a {
 }
 
 /* container5 */
-.news{
+.news {
     grid-area: news;
     text-align: center;
 }
 
-.news>h2{
+.news>h2 {
     margin-bottom: 0%;
     font-size: 25px;
     color: blue;
 }
 
-.news>h1{
+.news>h1 {
     margin-top: 10px;
     font-size: 35px;
 }
 
-.emailbar{
+.emailbar {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -443,7 +443,7 @@ a {
 }
 
 
-.email{
+.email {
     background-color: #f6f7fb;
     padding-left: 50px;
     padding-right: 300px;
@@ -451,7 +451,7 @@ a {
     color: #b3b4b5;
 }
 
-.btn5{
+.btn5 {
     margin-top: 3px;
     padding-top: 8px;
     padding-left: 10px;
@@ -462,47 +462,118 @@ a {
     background-size: contain;
 }
 
-#btn5text{
+#btn5text {
     margin: auto;
     padding: 50px;
     font-size: 20px;
 }
 
-.footer{
+.footer {
     grid-area: footer;
     display: flex;
     justify-content: center;
     gap: 180px;
+    margin-top: 230px;
+    margin-bottom: 50px;
 }
 
-.footer>div{
-    border: black solid 2px;
-}
-
-.ftr1>h1{
+.ftr1>h1 {
     text-align: center;
     font-size: 60px;
+    color: white;
 }
 
-.ftr1>h3{
+.ftr1>h3 {
     font-size: 35px;
     margin-bottom: 0%;
     margin-bottom: 25px;
+    color: white;
 }
 
-.btmlogo{
-    background-color: blue;
+.btmlogo {
     display: flex;
     justify-content: center;
     gap: 40px;
 }
 
+.ftr2 {
+    padding-top: 10px;
+}
 
-.container5{
+.ftr2>h5 {
+    font-size: 23px;
+    color: white;
+}
+
+.ftr2>a {
+    font-size: 21px;
+}
+
+.ftr3 {
+    padding-top: 10px;
+}
+
+.ftr3>h5 {
+    font-size: 23px;
+    color: white;
+}
+
+.ftr3>p {
+    font-size: 21px;
+    color: white;
+}
+
+.ftr4 {
+    padding-top: 10px;
+}
+
+.ftr4>h5 {
+    font-size: 23px;
+    color: white;
+}
+
+.phone {
+    color: white;
+}
+
+.phone>a {
+    display: inline;
+    font-size: 21px;
+    padding-left: 3px;
+}
+
+.envelop {
+    margin-top: 25px;
+    color: white;
+}
+
+.envelop>a {
+    display: inline;
+    font-size: 21px;
+    padding-left: 3px;
+}
+
+.location {
+    margin-top: 25px;
+    color: white;
+}
+
+.location>a {
+    display: inline;
+    font-size: 21px;
+    padding-left: 3px;
+}
+
+.container5 {
     display: grid;
-    grid-template-areas: 
-    'news news news news'
-    'footer footer footer footer'
+    grid-template-areas:
+        'news news news news'
+        'footer footer footer footer'
     ;
     padding-top: 100px;
+    background-image: url(../img/Bg\ Shape\ footer\ 2@2x.png), url(../img/Bg\ Shape\ footer\ 1@2x.png);
+    background-attachment: scroll, scroll;
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: 20%, 30%;
+    background-position-x: 60%, 90%;
 }
