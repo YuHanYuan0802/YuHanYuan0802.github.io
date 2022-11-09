@@ -331,32 +331,34 @@ a {
 }
 
 .btn4 {
+    border: black solid 2px;
     margin: auto;
     background-image: url(../img/Rectangle\ 8@2x.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position-x: center;
-    padding-bottom: 50px;
-    padding-top: 11px;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 50px;
+    width: initial 272.8px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .btn4white {
     margin: auto;
     border: blue solid 2px;
     border-radius: 50px;
-    max-width: 216px;
+    max-width: 214px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 #btn4text {
-    margin: auto;
     font-size: 20px;
-    color: white;
 }
 
 #btn4textblack {
-    margin: auto;
     font-size: 20px;
     color: black;
 }
@@ -369,6 +371,20 @@ a {
     ;
     background-color: #eceaff;
     padding-bottom: 150px;
+}
+
+@media screen and (max-width: 1290px) {
+    #gp {
+        width: 50%;
+        margin: auto;
+        padding-top: 60px;  
+    }
+
+    #sp {
+        width: 50%;
+        margin: auto;
+        padding-top: 60px;
+    }
 }
 
 /* container5 */
@@ -429,6 +445,8 @@ a {
     gap: 10%;
     margin-top: 230px;
     margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .ftr1>h1 {
