@@ -56,15 +56,17 @@ body {
 }
 
 .btn1 {
+    width: 80%;
     background-image: url(../img/Rectangle\ 8@2x.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
 #btn1text {
-    margin: auto;
-    margin-left: 6%;
-    font-size: 16px;
+    padding-left: 50px;
+    font-size: 20px;
     color: white;
 }
 
@@ -148,6 +150,7 @@ a {
 
 .btn2 {
     margin: auto;
+    width: 80%;
     background-image: url(../img/Rectangle\ 8@2x.png);
     background-repeat: no-repeat;
     padding-bottom: 50px;
@@ -472,9 +475,9 @@ a {
     grid-area: footer;
     display: flex;
     justify-content: center;
-    gap: 180px;
+    gap: 10%;
     margin-top: 230px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .ftr1>h1 {
