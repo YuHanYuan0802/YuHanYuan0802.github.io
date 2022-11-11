@@ -11,7 +11,9 @@
     <form action="form_submit.html">
         <fieldset>
             <legend>Farmer Registration Form</legend>
-            <div class="hdtext"><p>Name</p></div>
+            <div class="hdtext">
+                <p>Name</p>
+            </div>
             <input type="text" name="firstname" required placeholder="First">
             <input type="text" name="lasttname" required placeholder="Last"><br><br>
 
@@ -26,13 +28,17 @@
             <input type="email" name="email" required>
             <input type="text" name="phone" required placeholder="###-###-####"><br><br>
 
-            <div class="hdtext"><p>Gender</p></div>  
+            <div class="hdtext">
+                <p>Gender</p>
+            </div>
             <input type="radio" id="male" name="gender" value="Male">
             <label for="male">Male</label>
             <input type="radio" id="female" name="gender" value="Female">
             <label for="female">Female</label><br><br>
 
-            <div class="hdtext"><p>Farmer Address</p></div> 
+            <div class="hdtext">
+                <p>Farmer Address</p>
+            </div>
             <input type="text" name="address1" required placeholder="Street Address"><br><br>
             <input type="text" name="address2" required placeholder="Sreet Address Line 2"><br><br>
             <input type="text" name="city" required placeholder="City">
@@ -287,7 +293,7 @@
                 <option value="Zambia">Zambia</option>
                 <option value="Zimbabwe">Zimbabwe</option>
             </select><br><br>
-            <input id="btn" type="send" value="send">
+            <input id="btn" type="submit" value="send">
         </fieldset>
     </form>
 </body>
