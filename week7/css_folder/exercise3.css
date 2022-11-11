@@ -1,12 +1,14 @@
 body{
-    max-width: 350px;
+    max-width: 400px;
+    margin: auto;
+}
+
+fieldset{
+    background-color: #ddf4ee;
 }
 
 form{
     position: relative;
-    background-color: #ddf4ee;
-    width: 100%;
-    left: 160%;
     color: green;
 }
 
@@ -33,7 +35,7 @@ legend{
 #btn{
     margin-top: 10px;
     margin-bottom: 5px;
-    margin-left: 135px;
+    margin-left: 160px;
     background-color: green;
     color: white;
     border: 1px solid green;
