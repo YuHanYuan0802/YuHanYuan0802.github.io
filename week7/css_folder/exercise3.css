@@ -1,14 +1,12 @@
 body{
-    max-width: 400px;
-    margin: auto;
-}
-
-fieldset{
-    background-color: #ddf4ee;
+    max-width: 350px;
 }
 
 form{
     position: relative;
+    background-color: #ddf4ee;
+    width: 100%;
+    left: 160%;
     color: green;
 }
 
@@ -24,7 +22,7 @@ legend{
 
 .hdtextline2{
     display: flex;
-    gap: 116px;
+    gap: 135px;
     color: rgba(96,148,122,255);
 }
 
