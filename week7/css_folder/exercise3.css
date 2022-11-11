@@ -9,6 +9,7 @@ fieldset {
 
 form {
     position: relative;
+    background-color: #ddf4ee;
     color: green;
 }
 
@@ -24,7 +25,7 @@ legend {
 
 .hdtextline2 {
     display: flex;
-    gap: 135px;
+    gap: 116px;
     color: rgba(96, 148, 122, 255);
 }
 
