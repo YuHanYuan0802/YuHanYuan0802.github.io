@@ -1,39 +1,41 @@
-body {
-    max-width: 400px;
-    width: 100%;
+body{
+    max-width: 400px;           
     margin: auto;
 }
 
-form {
-    position: relative;
+fieldset{
     background-color: #ddf4ee;
+}
+
+form{
+    position: relative;
     color: green;
 }
 
-legend {
+legend{
     font-size: 25px;
     color: #1d561b;
 }
 
-.hdtext>p {
+.hdtext>p{
     margin-top: 0%;
     margin-bottom: 0%;
 }
 
-.hdtextline2 {
+.hdtextline2{
     display: flex;
-    gap: 116px;
-    color: rgba(96, 148, 122, 255);
+    gap: 135px;
+    color: rgba(96,148,122,255);
 }
 
-#country {
+#country{
     max-width: 150px;
 }
 
-#btn {
+#btn{
     margin-top: 10px;
     margin-bottom: 5px;
-    margin-left: 43%;
+    margin-left: 135px;
     background-color: green;
     color: white;
     border: 1px solid green;
