@@ -198,21 +198,22 @@ span {
         display: block;
         transition: 0.3s;
     }
+}
 
-    .overlay a:hover,
-    .overlay a:focus {
-        color: #f1f1f1;
-    }
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
 
-    .overlay .closebtn {
-        position: absolute;
-        top: 20px;
-        right: 45px;
-        font-size: 60px;
-    }
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
 
-    @media screen and (max-height: 450px) {
-        .overlay a {
-            font-size: 20px;
-        }
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px;
     }
+}
