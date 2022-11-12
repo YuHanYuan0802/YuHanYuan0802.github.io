@@ -1,0 +1,115 @@
+.content{
+    max-width: 720px;
+    min-width: 100px;
+    margin: auto;
+    padding: 20px;
+    background-color: grey;
+}
+
+.container1 {
+    max-width: 720px;
+    min-width: 100px;
+    display: flex;
+    flex: 1;
+    margin: auto;
+    justify-content: space-between;
+    background-color: #ddd;
+}
+
+#img1 {
+    margin: auto;
+    padding-left: auto;
+}
+
+#box1 {
+    padding-right: 10px;
+}
+
+#phone {
+    margin-left: auto;
+    text-align: center;
+    width: 150px;
+    border: black solid 2.5px;
+}
+
+#menu {
+    margin-left: auto;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: black solid 2.5px;
+}
+
+.slideshow {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 720px;
+    min-width: 100px;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #ddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#wing {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 120px;
+    border: black solid 2.5px;
+}
+
+.container2 {
+    max-width: 690px;
+    min-width: 100px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-around;
+    background-color: #ddd;
+    padding: 15px;
+}
+
+#text {
+    text-align: center;
+    border: black solid 2.5px;
+}
+
+#sidebar {
+    text-align: center;
+    border: black solid 2.5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container3 {
+    max-width: 720px;
+    min-width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #ddd;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 620px) {
+    .container1 {
+        flex-direction: column;
+    }
+
+    .slideshow {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:660px) {
+    #text {
+        font-size: 60%;
+    }
+
+}

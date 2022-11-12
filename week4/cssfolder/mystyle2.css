@@ -1,0 +1,15 @@
+#div1{
+    background-image: url(../img/mountain.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    margin: 10px;
+    padding: 20px;
+    border: solid black 15px;
+}
+#div2{
+    background-image: url(../img/w3css.gif);
+    background-size: contain;
+    margin: 10px;
+    padding: 20px;
+    border: solid black 15px;
+}

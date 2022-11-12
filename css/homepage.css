@@ -1,0 +1,144 @@
+body {
+    background-color: #ddd;
+    margin: 0px;
+}
+
+.header {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 80px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+#myname {
+    margin: 15px;
+    font-size: 300%;
+}
+
+#intro {
+    margin: 15px;
+    font-size: 150%;
+}
+
+.button {
+    margin: auto;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    max-width: 300px;
+    padding-bottom: 100px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+#fbbtn {
+    border-radius: 6px;
+}
+
+#igbtn {
+    border-radius: 6px;
+}
+
+#fblogo {
+    padding-top: 3px;
+}
+
+.bgmain {
+    margin-top: 50px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main {
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: white;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    box-shadow: 5px 5px 50px 10px lightgray;
+}
+
+.week {
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.weekbox {
+    margin-left: 15px;
+    margin-right: 15px;
+    border: black solid 2.5px;
+    border-radius: 6px;
+}
+
+p {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.alink:hover {
+    background-color: lightpink;
+}
+
+.mygithub {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#gitbutton {
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+}
+
+.mypic {
+    padding-top: 60px;
+    text-align: right;
+}
+
+.bottomlogo {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1180px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .mypic {
+        padding: 0px;
+        text-align: center;
+    }
+
+    #selfimg {
+        width: 100%;
+        height: auto;
+    }
+
+    .logoimg {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    p {
+        font-size: 75%;
+    }
+}

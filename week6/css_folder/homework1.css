@@ -1,0 +1,550 @@
+body {
+    margin: 0%;
+}
+
+.logo {
+    grid-area: logo;
+    display: flex;
+    justify-content: left;
+    margin-left: 200px;
+}
+
+#logotext1 {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.navi {
+    grid-area: navi;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 80px;
+    margin-top: 250px;
+}
+
+.context1 {
+    margin-top: 90px;
+    padding-left: 100px;
+    grid-area: context1;
+    text-align: left;
+    font-size: 30px;
+}
+
+#social {
+    margin-bottom: 0%;
+}
+
+#business {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#perfomance {
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.btn1 {
+    width: 80%;
+    background-image: url(../img/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#btn1text {
+    padding-left: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.group1423 {
+    grid-area: group1423;
+}
+
+#group1423png {
+    width: 65%;
+    height: auto;
+}
+
+.mouse {
+    grid-area: mouse;
+}
+
+#btnmouse {
+    border-radius: 45%;
+    width: 40px;
+    height: 45px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 8px 8px 20px gray;
+}
+
+.container1 {
+    display: grid;
+    grid-template-areas:
+        'logo logo logo navi navi navi'
+        'sidebar context1 context1 group1423 group1423 group1423'
+        'mouse mouse mouse mouse mouse mouse'
+    ;
+    text-align: center;
+    background-image: url(../img/Bg\ Shape@2x.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top right;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* container2 */
+.leftpic {
+    grid-area: leftpic;
+    margin-top: 80px;
+}
+
+#imgleftpic {
+    width: 100%;
+    height: auto;
+}
+
+.context2 {
+    grid-area: context2;
+    text-align: left;
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 30%;
+    padding-right: 100px;
+}
+
+#biolink {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+#whoweare {
+    margin-top: 20px;
+    font-size: 55px;
+    margin-bottom: 0%;
+}
+
+#loremmedia {
+    font-size: 20px;
+}
+
+.btn2 {
+    margin: auto;
+    width: 80%;
+    background-image: url(../img/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    padding-top: 11px;
+}
+
+#btn2text {
+    margin: auto;
+    margin-left: 65px;
+    font-size: 20px;
+    color: white;
+}
+
+.container2 {
+    margin-top: 10px;
+    display: grid;
+    grid-template-areas:
+        'leftpic context2'
+    ;
+    text-align: center;
+    background-image: url(../img/who\ we\ are\ background@2x.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: 700px;
+    background-position-y: 110px;
+}
+
+/* container3 */
+.hdctn3 {
+    text-align: left;
+    padding-left: 150px;
+}
+
+#ourservices {
+    margin-bottom: 0%;
+    font-size: 25px;
+    color: blue;
+}
+
+#whatweoffer {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.line1 {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 100px;
+    grid-area: line1;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.line2 {
+    margin-left: 120px;
+    margin-right: 120px;
+    grid-area: line2;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card {
+    position: relative;
+    border-radius: 50px;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    box-shadow: 0px 5px 5px lightblue;
+    margin-bottom: 140px;
+    flex: 1;
+    background-color: white;
+}
+
+#cardimg {
+    width: 30%;
+    height: auto;
+}
+
+.card>h1 {
+    text-align: left;
+    font-size: 17px;
+    margin-top: 35px;
+    margin-bottom: 24px;
+}
+
+.card>p {
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.btn3 {
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+}
+
+.btn3>a {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-image: url(../img/Rectangle\ 8@2x.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 10px;
+}
+
+.container3 {
+    margin-top: 150px;
+    display: grid;
+    grid-template-areas:
+        'hdctn3 hdctn3 hdctn3'
+        'line1 line1 line1'
+        'line2 line2 line2'
+    ;
+    background-image: url(../img/background@2x.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-y: 350px;
+}
+
+/* container4 */
+.hdctn4 {
+    grid-area: hdctn4;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#pricing {
+    margin-bottom: 0%;
+    font-size: 25px;
+    color: blue;
+}
+
+#ourpricing {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.line3 {
+    grid-area: line3;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cardforctn4 {
+    margin-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 6px 8px #e0dafe;
+}
+
+.cardforctn4>h1 {
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.cardforctn4>p {
+    margin-top: 80px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.cardforctn4>h2 {
+    font-size: 40px;
+    color: blue;
+    margin-bottom: 50px;
+}
+
+.btn4 {
+    margin: auto;
+    background-image: url(../img/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 50px;
+    width: initial 272.8px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn4white {
+    margin: auto;
+    border: blue solid 2px;
+    border-radius: 50px;
+    max-width: 214px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#btn4text {
+    font-size: 20px;
+}
+
+#btn4textblack {
+    font-size: 20px;
+    color: black;
+}
+
+.container4 {
+    display: grid;
+    grid-template-areas:
+        'hdctn4 hdctn4 hdctn4'
+        'line3 line3 line3'
+    ;
+    background-color: #eceaff;
+    padding-bottom: 150px;
+}
+
+@media screen and (max-width: 1290px) {
+    #gp {
+        width: 50%;
+        margin: auto;
+        padding-top: 60px;  
+    }
+
+    #sp {
+        width: 50%;
+        margin: auto;
+        padding-top: 60px;
+    }
+}
+
+/* container5 */
+.news {
+    grid-area: news;
+    text-align: center;
+}
+
+.news>h2 {
+    margin-bottom: 0%;
+    font-size: 25px;
+    color: blue;
+}
+
+.news>h1 {
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.emailbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+.email {
+    background-color: #f6f7fb;
+    padding-left: 50px;
+    padding-right: 300px;
+    border-radius: 15px;
+    color: #b3b4b5;
+}
+
+.btn5 {
+    margin-top: 3px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: url(../img/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+}
+
+#btn5text {
+    margin: auto;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 230px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ftr1>h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.ftr1>h3 {
+    font-size: 35px;
+    margin-bottom: 0%;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.btmlogo {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.ftr2 {
+    padding-top: 10px;
+}
+
+.ftr2>h5 {
+    font-size: 23px;
+    color: white;
+}
+
+.ftr2>a {
+    font-size: 21px;
+}
+
+.ftr3 {
+    padding-top: 10px;
+}
+
+.ftr3>h5 {
+    font-size: 23px;
+    color: white;
+}
+
+.ftr3>p {
+    font-size: 21px;
+    color: white;
+}
+
+.ftr4 {
+    padding-top: 10px;
+}
+
+.ftr4>h5 {
+    font-size: 23px;
+    color: white;
+}
+
+.phone {
+    color: white;
+}
+
+.phone>a {
+    display: inline;
+    font-size: 21px;
+    padding-left: 3px;
+}
+
+.envelop {
+    margin-top: 25px;
+    color: white;
+}
+
+.envelop>a {
+    display: inline;
+    font-size: 21px;
+    padding-left: 3px;
+}
+
+.location {
+    margin-top: 25px;
+    color: white;
+}
+
+.location>a {
+    display: inline;
+    font-size: 21px;
+    padding-left: 3px;
+}
+
+.container5 {
+    display: grid;
+    grid-template-areas:
+        'news news news news'
+        'footer footer footer footer'
+    ;
+    padding-top: 100px;
+    background-image: url(../img/Bg\ Shape\ footer\ 2@2x.png), url(../img/Bg\ Shape\ footer\ 1@2x.png);
+    background-attachment: scroll, scroll;
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: 20%, 30%;
+    background-position-x: 60%, 90%;
+}
