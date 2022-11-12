@@ -13,6 +13,7 @@ body {
 }
 
 .topnav {
+    position: relative;
     overflow: hidden;
     background-color: #333;
 }
@@ -44,7 +45,7 @@ span {
 
 #fabars {
     position: absolute;
-    top: 9.7%;
+    top: 20%;
     right: 5%;
 }
 
@@ -212,5 +213,6 @@ span {
 
     @media screen and (max-height: 450px) {
         .overlay a {
-            font-size: 20px
+            font-size: 20px;
         }
+    }
