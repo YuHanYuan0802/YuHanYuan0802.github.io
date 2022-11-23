@@ -571,3 +571,65 @@ body {
 .card2>p {
     font-size: 1.5vw;
 }
+
+/* Footer------------------------------------------------*/
+.footer{
+    position: relative;
+    background-color: white;
+    padding: 7vw;
+    background-image: url(../img/background.png), url(../img/background.png);
+    background-position-y: 190px, bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    max-height: 215px;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    gap: 8vw;
+    text-align: center;
+    align-items: center;
+    background-color: #F3EFFE;
+}
+
+.container4>div>h3{
+    font-size: 2vw;
+    color: #385ab1;
+}
+
+.container4>div>p{
+    font-size: 1.5vw;
+    color: #7520c0;
+}
+
+.container4>div>div>a{
+    text-decoration: none;
+    color: #7520c0;
+    font-size: 1.5vw;
+}
+
+.socialbar2 {
+    position: absolute;
+    top: 80%;
+    left: 32%;
+    margin: auto;
+    margin-bottom: 6vw;
+    box-shadow: grey 5px 5px 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 3vw;
+    align-items: center;
+    max-width: fit-content;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    background-color: white;
+}
+
+.socialbar2>div>a {
+    text-decoration: none;
+    font-size: 1.5vw;
+}
