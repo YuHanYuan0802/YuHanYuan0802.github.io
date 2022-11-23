@@ -587,6 +587,10 @@ body {
 }
 
 @media screen and (max-width:500px) {
+    .navbar2{
+        gap: 40vw;
+    }
+
     .flextable2 {
         display: flex;
         flex-direction: column;
@@ -617,6 +621,13 @@ body {
 
     .project2>div>h3 {
         font-size: 3vw;
+    }
+
+    .work{
+        background-image: url(../img/purplebackground.png),url(../img/purplebackground.png);
+        background-position-y: 96%,bottom;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
     }
 }
 
