@@ -173,7 +173,7 @@ body {
         background-color: #A53DFF;
         border-radius: 50%;
     }
-    
+
     .icon>a {
         font-size: 2vw;
         text-decoration: none;
@@ -457,7 +457,7 @@ body {
     .table1>h4 {
         font-size: 4vw;
     }
-    
+
     .table1>p {
         font-size: 3vw;
     }
@@ -465,7 +465,7 @@ body {
     .table2>h4 {
         font-size: 4vw;
     }
-    
+
     .table2>p {
         font-size: 3vw;
     }
@@ -473,7 +473,7 @@ body {
     .table3>h4 {
         font-size: 4vw;
     }
-    
+
     .table3>p {
         font-size: 3vw;
     }
@@ -481,7 +481,7 @@ body {
     .table4>h4 {
         font-size: 4vw;
     }
-    
+
     .table4>p {
         font-size: 3vw;
     }
@@ -644,7 +644,7 @@ body {
         font-size: 4vw;
         margin-bottom: 0%;
     }
-    
+
     .hdcontainer2>p {
         font-size: 3vw;
     }
@@ -689,7 +689,7 @@ body {
         text-align: center;
         font-size: 4vw;
     }
-    
+
     .projecttext>div>a {
         padding: 5px;
         padding-left: 2vw;
@@ -702,8 +702,8 @@ body {
     }
 
     .work {
-        background-image: url(../img/purplebackground.png), url(../img/purplebackground.png),url(../img/purplebackground.png);
-        background-position-y: 91.5%, 96%,bottom;
+        background-image: url(../img/purplebackground.png), url(../img/purplebackground.png), url(../img/purplebackground.png);
+        background-position-y: 91.5%, 96%, bottom;
         background-repeat: no-repeat;
         background-attachment: scroll;
     }
@@ -816,7 +816,7 @@ body {
     .container3text>h3 {
         font-size: 4vw;
     }
-    
+
     .container3text>p {
         font-size: 3vw;
     }
@@ -850,7 +850,7 @@ body {
     .card1>h3 {
         font-size: 4vw;
     }
-    
+
     .card1>p {
         font-size: 3vw;
     }
@@ -858,7 +858,7 @@ body {
     .card2>h3 {
         font-size: 4vw;
     }
-    
+
     .card2>p {
         font-size: 3vw;
     }
@@ -889,23 +889,23 @@ body {
     color: #385ab1;
 }
 
-.footerlink{
+.footerlink {
     margin-top: 1vw;
     margin-bottom: 1vw;
 }
-    
+
 .footerlink>a {
     font-size: 1.5vw;
     text-decoration: none;
     color: #7520c0;
 }
 
-.getintouch{
+.getintouch {
     margin-top: 2vw;
     padding-bottom: 3vw;
 }
 
-.getintouch>a{
+.getintouch>a {
     font-size: 1.5vw;
     text-decoration: none;
     color: #7520c0;
@@ -936,14 +936,14 @@ body {
 }
 
 @media screen and (max-width:800px) {
-    .socialbar2{
+    .socialbar2 {
         display: none;
     }
 
     .container4>div>h3 {
         font-size: 3vw;
     }
-    
+
     .footerlink>a {
         font-size: 2vw;
     }
