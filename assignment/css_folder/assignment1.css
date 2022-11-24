@@ -438,6 +438,38 @@ body {
     .table4 {
         border: black solid 1px;
     }
+
+    .table1>h4 {
+        font-size: 4vw;
+    }
+    
+    .table1>p {
+        font-size: 3vw;
+    }
+
+    .table2>h4 {
+        font-size: 4vw;
+    }
+    
+    .table2>p {
+        font-size: 3vw;
+    }
+
+    .table3>h4 {
+        font-size: 4vw;
+    }
+    
+    .table3>p {
+        font-size: 3vw;
+    }
+
+    .table4>h4 {
+        font-size: 4vw;
+    }
+    
+    .table4>p {
+        font-size: 3vw;
+    }
 }
 
 /* work------------------------------------------------*/
@@ -593,6 +625,15 @@ body {
         gap: 40vw;
     }
 
+    .hdcontainer2>h3 {
+        font-size: 4vw;
+        margin-bottom: 0%;
+    }
+    
+    .hdcontainer2>p {
+        font-size: 3vw;
+    }
+
     .flextable2 {
         display: flex;
         flex-direction: column;
@@ -625,9 +666,29 @@ body {
         font-size: 3vw;
     }
 
+    .projecttext>h3 {
+        background-image: url(../img/purplebackground.png);
+        background-repeat: repeat-y;
+        background-size: contain;
+        background-attachment: scroll;
+        text-align: center;
+        font-size: 4vw;
+    }
+    
+    .projecttext>div>a {
+        padding: 5px;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        background-color: #A53DFF;
+        text-decoration: none;
+        color: white;
+        font-size: 3vw;
+        border-radius: 10px;
+    }
+
     .work {
-        background-image: url(../img/purplebackground.png), url(../img/purplebackground.png);
-        background-position-y: 96%, bottom;
+        background-image: url(../img/purplebackground.png), url(../img/purplebackground.png),url(../img/purplebackground.png);
+        background-position-y: 91.5%, 96%,bottom;
         background-repeat: no-repeat;
         background-attachment: scroll;
     }
@@ -737,6 +798,22 @@ body {
         text-align: center;
     }
 
+    .container3text>h3 {
+        font-size: 4vw;
+    }
+    
+    .container3text>p {
+        font-size: 3vw;
+    }
+
+    .container3seemore>a {
+        font-size: 3vw;
+    }
+
+    .container3vscode>a {
+        font-size: 3vw;
+    }
+
     .card1 {
         border-left: #A53DFF solid 10px;
         border-radius: 10px;
@@ -753,6 +830,22 @@ body {
         box-shadow: grey 5px 5px 10px;
         border-radius: 10px;
         width: fit-content;
+    }
+
+    .card1>h3 {
+        font-size: 4vw;
+    }
+    
+    .card1>p {
+        font-size: 3vw;
+    }
+
+    .card2>h3 {
+        font-size: 4vw;
+    }
+    
+    .card2>p {
+        font-size: 3vw;
     }
 }
 
@@ -781,15 +874,26 @@ body {
     color: #385ab1;
 }
 
-.container4>div>p {
+.footerlink{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+    
+.footerlink>a {
     font-size: 1.5vw;
+    text-decoration: none;
     color: #7520c0;
 }
 
-.container4>div>div>a {
+.getintouch{
+    margin-top: 2vw;
+    padding-bottom: 3vw;
+}
+
+.getintouch>a{
+    font-size: 1.5vw;
     text-decoration: none;
     color: #7520c0;
-    font-size: 1.5vw;
 }
 
 .socialbar2 {
@@ -819,5 +923,13 @@ body {
 @media screen and (max-width:800px) {
     .socialbar2{
         display: none;
+    }
+
+    .container4>div>h3 {
+        font-size: 3vw;
+    }
+    
+    .footerlink>a {
+        font-size: 2vw;
     }
 }
