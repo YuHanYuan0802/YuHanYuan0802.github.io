@@ -223,7 +223,7 @@ body {
         font-size: 3vw;
     }
 
-    .socialbar>div>a>img{
+    .socialbar>div>a>img {
         width: 50%;
         height: auto;
     }
@@ -587,7 +587,7 @@ body {
 }
 
 @media screen and (max-width:500px) {
-    .navbar2{
+    .navbar2 {
         gap: 40vw;
     }
 
@@ -623,9 +623,9 @@ body {
         font-size: 3vw;
     }
 
-    .work{
-        background-image: url(../img/purplebackground.png),url(../img/purplebackground.png);
-        background-position-y: 96%,bottom;
+    .work {
+        background-image: url(../img/purplebackground.png), url(../img/purplebackground.png);
+        background-position-y: 96%, bottom;
         background-repeat: no-repeat;
         background-attachment: scroll;
     }
@@ -726,12 +726,12 @@ body {
 }
 
 @media screen and (max-width:500px) {
-    .container3{
+    .container3 {
         display: flex;
         flex-direction: column;
     }
 
-    .container3text{
+    .container3text {
         text-align: center;
     }
 }
@@ -741,12 +741,10 @@ body {
     position: relative;
     background-color: white;
     padding: 7vw;
-    background-image: url(../img/background.png), url(../img/background.png);
-    background-position-y: 190px, bottom;
-    background-repeat: no-repeat;
+    background-image: url(../img/background.png);
+    background-repeat: repeat-y;
     background-attachment: scroll;
     background-size: contain;
-    max-height: 215px;
 }
 
 .container4 {
@@ -796,4 +794,10 @@ body {
 .socialbar2>div>a {
     text-decoration: none;
     font-size: 1.5vw;
+}
+
+@media screen and (max-width:800px) {
+    .socialbar2{
+        display: none;
+    }
 }
