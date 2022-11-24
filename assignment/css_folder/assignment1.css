@@ -1,6 +1,5 @@
 body {
     margin: 0%;
-
 }
 
 .header {
@@ -736,6 +735,24 @@ body {
 
     .container3text {
         text-align: center;
+    }
+
+    .card1 {
+        border-left: #A53DFF solid 10px;
+        border-radius: 10px;
+        padding: 2vw;
+        box-shadow: grey 5px 5px 10px;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .card2 {
+        margin: auto;
+        margin-top: 9vw;
+        padding: 2vw;
+        box-shadow: grey 5px 5px 10px;
+        border-radius: 10px;
+        width: fit-content;
     }
 }
 
