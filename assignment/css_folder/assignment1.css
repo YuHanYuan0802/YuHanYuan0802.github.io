@@ -279,7 +279,7 @@ body {
     border-radius: 10px;
 }
 
-.flextable:hover {
+.flextable :hover {
     transition: transform .2s;
     transform: scale(1.2);
 }
