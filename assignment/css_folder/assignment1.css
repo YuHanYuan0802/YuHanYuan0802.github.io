@@ -55,8 +55,6 @@ body {
     box-shadow: gray 5px 5px 10px;
 }
 
-
-
 .dropdown {
     display: inline-block;
     position: relative;
@@ -114,8 +112,7 @@ body {
 .hdcontent {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px 0 10px;
 }
 
 .hdcontent>.content>h1 {
@@ -127,14 +124,10 @@ body {
 }
 
 .hdabt {
-    margin: auto;
-    margin-top: 4vw;
-    margin-bottom: 4vw;
+    margin: 4vw auto 4vw auto;
     background-color: #A53DFF;
     max-width: fit-content;
-    padding: 1vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding: 1vw 4vw 1vw 4vw;
     border-radius: 30px;
     align-items: center;
 }
@@ -153,14 +146,13 @@ body {
 }
 
 .hdbar>div {
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding: 0 4vw 0 4vw;
     background-color: #EDD8FF;
     text-align: center;
 }
 
 .hdbar>div>h3 {
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .hdbar>div>p {
@@ -169,18 +161,14 @@ body {
 }
 
 .socialbar {
-    margin: auto;
-    margin-bottom: 6vw;
+    margin: auto auto 6vw auto;
     box-shadow: grey 5px 5px 10px;
     display: flex;
     justify-content: space-around;
     gap: 3vw;
     align-items: center;
     max-width: fit-content;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    padding-right: 10vw;
-    padding-left: 10vw;
+    padding: 1vw 10vw 1vw 10vw;
     background-color: white;
 }
 
@@ -199,19 +187,45 @@ body {
     .content>img {
         width: 50%;
     }
+
+    .logotext>a {
+        font-size: 4vw;
+    }
+
+    .navtext>div>a {
+        font-size: 4vw;
+    }
+
+    .dropdowncontent>a {
+        font-size: 4vw;
+    }
+
+    .hdcontent>.content>p {
+        font-size: 3vw;
+    }
+
+    .hdabt>a {
+        font-size: 3vw;
+    }
+
+    .hdbar>div>p {
+        font-size: 2vw;
+    }
+
+    .socialbar>div>a>img{
+        width: 50%;
+    }
 }
 
 /* service------------------------------------------------*/
 .service {
     background-color: #8431CC;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding: 0 2vw 0 2vw;
 }
 
 .container1 {
     background-color: #F0F1F3;
-    padding-top: 1vw;
-    padding-bottom: 10vw;
+    padding: 1vw 0 10vw 0;
 }
 
 .flexcontent {
@@ -229,10 +243,7 @@ body {
 .checkbtn {
     border: black solid 2px;
     width: fit-content;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    padding: 2vw 3vw 2vw 3vw;
     margin-left: 7.5vw;
     border-radius: 10px;
 }
@@ -253,8 +264,7 @@ body {
 .myprocess {
     text-align: center;
     width: fit-content;
-    margin: auto;
-    margin-top: 2vw;
+    margin: 2vw auto auto auto;
 }
 
 .myprocess>h1 {
@@ -414,10 +424,7 @@ body {
     border-radius: 50px;
     color: white;
     background-color: #A53DFF;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    padding: 1vw 2vw 1vw 2vw;
     font-size: 1.5vw;
 }
 
@@ -434,6 +441,10 @@ body {
     .dot {
         width: 2vw;
         height: 2vw;
+    }
+
+    .container2seemore>a {
+        font-size: 3vw;
     }
 }
 
