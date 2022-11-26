@@ -19,7 +19,7 @@ body {
 
 .logo {
     display: flex;
-    gap: 3vw;
+    justify-content: center;
     margin-left: 5vw;
 }
 
@@ -314,6 +314,11 @@ body {
     .myprocess>h1 {
         font-size: 7vw;
         border-radius: 10px;
+    }
+
+    .hdtable>div>img {
+        width: 30%;
+        height: auto;
     }
 
     .hdtable>h4 {
@@ -659,7 +664,7 @@ body {
     border-radius: 50px;
 }
 
-.socialbar2>div>a>img{
+.socialbar2>div>a>img {
     width: 100%;
 }
 
@@ -686,12 +691,12 @@ body {
         border: none;
 
     }
-    
+
     .igpng {
         border: none;
 
     }
-    
+
     .githubpng {
         border: none;
     }
