@@ -212,7 +212,7 @@ body {
         font-size: 2vw;
     }
 
-    .socialbar>div>a>img{
+    .socialbar>div>a>img {
         width: 50%;
     }
 }
@@ -624,20 +624,20 @@ body {
     color: #8431CC;
 }
 
-.emailbox{
+.emailbox {
     display: inline;
     margin: auto;
 }
 
-.email{
+.email {
     width: 30%;
-    margin:10px 0 10px 0;
-    padding: 20px 10px 20px 10px;
+    margin: 10px 0 10px 0;
+    padding: 20px 10px;
     border-radius: 20px;
 }
 
 .submit {
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px;
     border-radius: 50px;
     background-color: #8431CC;
     font-weight: bolder;
@@ -647,22 +647,46 @@ body {
 }
 
 .footerlink>a {
+    align-items: center;
     font-size: 1.5vw;
     text-decoration: none;
-    color: #7520c0;
 }
 
-.getintouch {
-    margin-top: 2vw;
-    padding-bottom: 3vw;
+.socialbar2 {
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    align-items: center;
 }
 
-.getintouch>a {
-    font-size: 1.5vw;
-    text-decoration: none;
-    color: #7520c0;
+.fbpng {
+    border: #8431CC solid 2px;
+    padding: 1vw 1.5vw;
+    border-radius: 50px;
 }
 
+.igpng {
+    border: #8431CC solid 2px;
+    padding: 1vw 1.2vw;
+    border-radius: 50px;
+}
+
+.githubpng {
+    border: #8431CC solid 2px;
+    padding: .5vw .7vw;
+    border-radius: 50px;
+}
+
+.socialbar2>div>a>img{
+    width: 100%;
+}
+
+.socialbar2 :hover {
+    background-color: #EDD8FF;
+    transition: 0.5s;
+}
 
 @media screen and (max-width:800px) {
 
@@ -673,8 +697,22 @@ body {
     .submit {
         font-size: 3vw;
     }
-    
-    .email{
+
+    .email {
         padding: 20px;
+    }
+
+    .fbpng {
+        border: none;
+
+    }
+    
+    .igpng {
+        border: none;
+
+    }
+    
+    .githubpng {
+        border: none;
     }
 }
