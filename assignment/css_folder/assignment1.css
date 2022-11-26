@@ -461,19 +461,16 @@ body {
     background-color: #F0F1F3;
     padding-top: 1vw;
     padding-bottom: 20px;
+    align-items: center;
 }
 
 .container3text {
-    margin-top: 9vw;
-    margin-left: 2vw;
+    margin-top: 9vw auto auto 2vw;
 }
 
 .container3text>h3 {
+    text-align: center;
     font-size: 2.5vw;
-}
-
-.container3text>p {
-    font-size: 1.5vw;
 }
 
 .container3seemore {
@@ -483,29 +480,12 @@ body {
 
 .container3seemore>a {
     text-decoration: none;
+    border-radius: 50px;
     color: white;
     background-color: #A53DFF;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    padding: 1vw 2vw;
     font-size: 1.5vw;
-}
-
-.container3vscode {
-    text-align: center;
-    margin-top: 3vw;
-}
-
-.container3vscode>a {
-    text-decoration: none;
-    color: white;
-    background-color: #A53DFF;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    font-size: 1.5vw;
+    font-weight: bolder;
 }
 
 .container3right {
