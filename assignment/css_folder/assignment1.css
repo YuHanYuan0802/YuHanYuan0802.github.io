@@ -614,22 +614,36 @@ body {
 }
 
 .container4 {
-    display: flex;
-    justify-content: center;
-    gap: 8vw;
     text-align: center;
     align-items: center;
     background-color: #F3EFFE;
 }
 
-.container4>div>h3 {
-    font-size: 2vw;
+.container4>div>h1 {
+    font-size: 5vw;
     color: #385ab1;
 }
 
-.footerlink {
-    margin-top: 1vw;
-    margin-bottom: 1vw;
+.emailbox{
+    display: inline;
+    margin: auto;
+}
+
+.email{
+    width: 30%;
+    margin:10px 0 10px 0;
+    padding: 20px 10px 20px 10px;
+    border-radius: 20px;
+}
+
+.submit {
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    background-color: #8431CC;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.5vw;
+    border: none;
 }
 
 .footerlink>a {
@@ -649,37 +663,18 @@ body {
     color: #7520c0;
 }
 
-.socialbar2 {
-    margin: auto;
-    margin-bottom: 6vw;
-    box-shadow: grey 5px 5px 10px;
-    display: flex;
-    justify-content: space-around;
-    gap: 3vw;
-    align-items: center;
-    max-width: fit-content;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    padding-right: 10vw;
-    padding-left: 10vw;
-    background-color: white;
-}
-
-.socialbar2>div>a {
-    text-decoration: none;
-    font-size: 1.5vw;
-}
 
 @media screen and (max-width:800px) {
-    .socialbar2 {
-        display: none;
-    }
 
     .container4>div>h3 {
         font-size: 3vw;
     }
 
-    .footerlink>a {
-        font-size: 2vw;
+    .submit {
+        font-size: 3vw;
+    }
+    
+    .email{
+        padding: 20px;
     }
 }
