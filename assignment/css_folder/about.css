@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+
+/* .about{
+    position: relative;
+} */
+
+.navbar {
+    position: fixed;
+    top: -1px;
+    background-color: #8431CC;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 2;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+.logotext {
+    margin: auto;
+    min-width: fit-content;
+}
+
+.logotext>a {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+}
+
+.navtext {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+    margin-right: 5vw;
+    align-items: center;
+}
+
+.navtext>div>a {
+    padding: 5px;
+    background-color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    box-shadow: gray 5px 5px 10px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    top: 30px;
+    min-width: fit-content;
+    background-color: white;
+    z-index: 2;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdowncontent>a {
+    font-size: 1vw;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.dropdown:hover>.dropdowncontent {
+    display: block;
+    border-radius: 10px;
+}
+
+.dropdowncontent>a:hover {
+    color: white;
+    background-color: #8431CC;
+    border-radius: 10px;
+}
+
+.contactlink :hover {
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+@media screen and (max-width:500px) {
+    .logotext>a {
+        font-size: 4vw;
+    }
+
+    .navtext>div>a {
+        font-size: 4vw;
+    }
+
+    .dropdowncontent>a {
+        font-size: 4vw;
+    }
+
+}
