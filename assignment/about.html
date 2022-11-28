@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css_folder/about.css">
+    <link rel="shortcut icon" href="img/y-logo.png">
     <title>About</title>
 </head>
 
@@ -17,16 +18,17 @@
                     <img src="img/y-logo.png" width="40px">
                 </div>
                 <div class="logotext">
-                    <a href="#">Yu Han Yuan</a>
+                    <a href="index.html">Yu Han Yuan</a>
                 </div>
             </div>
             <div class="navtext">
                 <div class="dropdown">
                     <a href="#"><strong>Menu</strong></a>
                     <div class="dropdowncontent">
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">My Work</a>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="#">My Service</a>
+                        <a href="#">My IDE</a>
                     </div>
                 </div>
                 <div class="contactlink">
@@ -34,8 +36,116 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="aboutmetext">
+            <h1>About Me</h1>
         </div>
+        <div class="abtcontainer">
+            <div class="content">
+                <img class="pic" src="img/male_boy_person_people_avatar_icon_159358.png" width="512px">
+            </div>
+            <div class="abtintro">
+                <h1>
+                    Hello, Im Yu Han Yuan
+                    I am an IT student
+                    continued degree after
+                    graduated from diploma.
+                </h1>
+                <div class="socialbar">
+                    <div>
+                        <a href="#"><img src="img/fb.png"></a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="img/ig.png"></a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="img/GitHub-Mark-32px.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="twobutton">
+            <div class="abtbtn">
+                <button type="button" onclick="function1()">Education</button>
+            </div>
+            <div class="abtbtn">
+                <button type="button" onclick="function2()">Experience</button>
+            </div>
+        </div>
+        <div id="fragmentedu">
+            <div class="time">
+                <h1>
+                    -2014-
+                </h1>
+                <h1>
+                    -2019-
+                </h1>
+                <h1>
+                    -2022-
+                </h1>
+            </div>
+            <div class="fragcontent">
+                <h1>
+                    UPSR
+                </h1>
+                <p>
+                    SJK(C) ULU TIRAM
+                </p>
+                <h1>
+                    SPM
+                </h1>
+                <p>
+                    SMK ULU TIRAM
+                </p>
+                <h1>
+                    DIPLOMA IN COMPUTER SCIENCE
+                </h1>
+                <p>
+                    NEW ERA UNIVERSITY
+                </p>
+            </div>
+        </div>
+        <div id="fragmentexpe">
+            <div class="time">
+                <h1>
+                    -2020-
+                </h1>
+                <h1>
+                    -2022-
+                </h1>
+            </div>
+            <div class="fragcontent">
+                <h1>
+                    Mobile Device Maintainence
+                </h1>
+                <p>
+                    Repairing&Maintaining
+                </p>
+                <h1>
+                    Java programming
+                </h1>
+                <p>
+                    Java script
+                </p>
+                <h1>
+                    PC&Laptop Maintainence
+                </h1>
+                <p>
+                    Repairing&Maintaining
+                </p>
+            </div>
+        </div>
+
+        <script>
+            function function1() {
+                document.getElementById("fragmentedu").style.display = "flex";
+                document.getElementById("fragmentexpe").style.display = "none";
+            }
+
+            function function2() {
+                document.getElementById("fragmentedu").style.display = "none";
+                document.getElementById("fragmentexpe").style.display = "flex";
+            }
+        </script>
     </div>
 </body>
 

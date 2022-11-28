@@ -94,6 +94,117 @@ body {
     background-color: lightgray;
 }
 
+.aboutmetext{
+    font-size: 1vw;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.abtcontainer{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content>img{
+    width: 100%;
+    height: auto;
+}
+
+.abtintro{
+    padding: 0 10px 0 10px;
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.socialbar {
+    margin: auto auto 6vw auto;
+    box-shadow: grey 5px 5px 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 3vw;
+    align-items: center;
+    max-width: fit-content;
+    padding: 1vw 10vw 1vw 10vw;
+    background-color: white;
+}
+
+.socialbar>div>a {
+    text-decoration: none;
+}
+
+.twobutton{
+    margin: 2vw 0 2vw 0;
+    display: flex;
+    justify-content: center;
+    gap: 20vw; 
+}
+
+.abtbtn {
+    max-width: fit-content;
+    align-items: center;
+}
+
+.abtbtn>button {
+    padding: 2vw 3vw 2vw 3vw;
+    background-color: #8431CC;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.abtbtn>button:hover{
+    background-color: #9e78be;
+    color: black;
+    cursor: pointer;
+}
+
+#fragmentedu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 2vw;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border: black solid 2px;
+}
+
+.time>h1{
+    font-size: 2vw;
+    text-align: right;
+}
+
+.fragcontent{
+    padding: 30px;
+    border: black solid 2px;
+    width: fit-content;
+    text-align: left;
+}
+
+.fragcontent>h1{
+    font-size: 2vw;
+}
+
+.fragcontent>p{
+    font-size: 1vw;
+}
+
+#fragmentexpe{
+    display: none;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 2vw;
+}
+
 @media screen and (max-width:500px) {
     .logotext>a {
         font-size: 4vw;
@@ -105,6 +216,52 @@ body {
 
     .dropdowncontent>a {
         font-size: 4vw;
+    }
+
+    .aboutmetext{
+        font-size: 3vw;
+    }
+
+    .abtcontainer{
+        flex-direction: column;
+    }
+
+    .abtintro{
+        font-size: 4vw;
+    }
+
+    .content{
+        text-align: center;
+    }
+
+    .content>img{
+        width: 50%;
+        height: auto;
+    }
+
+    .twobutton{
+        gap: 5vw; 
+    }
+
+    .abtbtn>button {
+        font-size: 3vw;
+    }
+
+    .time{
+        margin: auto 0 auto 0;
+        padding: 40px 0 40px 0;
+    }
+
+    .time>h1{
+        font-size: 3vw;
+    }
+
+    .fragcontent>h1{
+        font-size: 3vw;
+    }
+    
+    .fragcontent>p{
+        font-size: 2vw;
     }
 
 }
