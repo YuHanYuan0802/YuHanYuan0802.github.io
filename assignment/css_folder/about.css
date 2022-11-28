@@ -172,19 +172,23 @@ body {
 }
 
 .time{
+    border-radius: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
     border: black solid 2px;
+    background-color: #8431CC;
 }
 
 .time>h1{
     font-size: 2vw;
     text-align: right;
+    color: white;
 }
 
 .fragcontent{
+    border-radius: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,16 +197,19 @@ body {
     border: black solid 2px;
     width: fit-content;
     text-align: left;
+    background-color: #8431CC;
 }
 
 .fragcontent>h1{
     font-size: 2vw;
+    color: white;
 }
 
 .fragcontent>p{
     margin: 0;
     font-size: 1vw;
     border-bottom: black solid 2px;
+    color: white;
 }
 
 #fragmentexpe{
