@@ -213,6 +213,28 @@ body {
     margin-bottom: 2vw;
 }
 
+.company{
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+.company>h1{
+    text-align: center;
+    font-size: 4vw;
+}
+
+.imgcompany{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgcompany>div>a>img{
+    width: 80%;
+    height: auto;
+}
+
 @media screen and (max-width:500px) {
     .logotext>a {
         font-size: 4vw;
@@ -280,4 +302,129 @@ body {
         font-size: 2vw;
     }
 
+    .imgcompany{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .imgcompany>div>a>img{
+        width: 50%;
+        height: auto;
+    }
+
+}
+
+.footer {
+    background-color: white;
+    padding: 7vw;
+    background-image: url(../img/background.png);
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    background-size: contain;
+}
+
+.container4 {
+    text-align: center;
+    align-items: center;
+    background-color: #F3EFFE;
+}
+
+.container4>div>h1 {
+    font-size: 3vw;
+    color: #8431CC;
+}
+
+.emailbox {
+    display: inline;
+    margin: auto;
+}
+
+.email {
+    width: 30%;
+    margin: 10px 0 10px 0;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+.submit {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #8431CC;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.5vw;
+    border: none;
+}
+
+.footerlink>a {
+    align-items: center;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+
+.socialbar2 {
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    align-items: center;
+}
+
+.fbpng {
+    border: #8431CC solid 2px;
+    padding: 1vw 1.5vw;
+    border-radius: 50px;
+}
+
+.igpng {
+    border: #8431CC solid 2px;
+    padding: 1vw 1.2vw;
+    border-radius: 50px;
+}
+
+.githubpng {
+    border: #8431CC solid 2px;
+    padding: .5vw .7vw;
+    border-radius: 50px;
+}
+
+.socialbar2>div>a>img {
+    width: 100%;
+}
+
+.socialbar2 :hover {
+    background-color: #EDD8FF;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:800px) {
+
+    .container4>div>h3 {
+        font-size: 2vw;
+    }
+
+    .submit {
+        font-size: 2vw;
+    }
+
+    .email {
+        padding: 20px;
+    }
+
+    .fbpng {
+        border: none;
+
+    }
+
+    .igpng {
+        border: none;
+
+    }
+
+    .githubpng {
+        border: none;
+    }
 }
