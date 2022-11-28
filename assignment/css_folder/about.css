@@ -164,6 +164,7 @@ body {
 }
 
 #fragmentedu{
+    margin: 0 30px 0 30px;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -199,6 +200,7 @@ body {
 }
 
 #fragmentexpe{
+    margin: 0 30px 0 30px;
     display: none;
     justify-content: center;
     gap: 30px;
@@ -245,6 +247,14 @@ body {
 
     .abtbtn>button {
         font-size: 3vw;
+    }
+
+    #fragmentedu{
+        gap: 10px;
+    }
+
+    #fragmentexpe{
+        gap: 10px;
     }
 
     .time{
