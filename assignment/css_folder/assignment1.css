@@ -475,6 +475,7 @@ body {
 .container3seemore {
     text-align: center;
     margin-top: 3vw;
+    min-width: fit-content;
 }
 
 .container3seemore>a {
