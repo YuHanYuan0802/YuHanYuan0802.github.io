@@ -300,6 +300,20 @@ body {
     color: black;
 }
 
+.container1seemore {
+    text-align: center;
+    margin: 3vw auto 3vw auto;
+}
+
+.container1seemore>a {
+    text-decoration: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #A53DFF;
+    padding: 1vw 2vw 1vw 2vw;
+    font-size: 1.5vw;
+}
+
 @media screen and (max-width:500px) {
     .flextable {
         flex-direction: column;
@@ -327,6 +341,10 @@ body {
         font-size: 4vw;
         text-decoration: none;
         color: black;
+    }
+
+    .container1seemore>a {
+        font-size: 3vw;
     }
 
 }
@@ -413,20 +431,6 @@ body {
     }
 }
 
-.container2seemore {
-    text-align: center;
-    margin-bottom: 3vw;
-}
-
-.container2seemore>a {
-    text-decoration: none;
-    border-radius: 50px;
-    color: white;
-    background-color: #A53DFF;
-    padding: 1vw 2vw 1vw 2vw;
-    font-size: 1.5vw;
-}
-
 @media screen and (max-width:500px) {
     .hdcontainer2>h3 {
         font-size: 4vw;
@@ -440,10 +444,6 @@ body {
     .dot {
         width: 2vw;
         height: 2vw;
-    }
-
-    .container2seemore>a {
-        font-size: 3vw;
     }
 }
 
