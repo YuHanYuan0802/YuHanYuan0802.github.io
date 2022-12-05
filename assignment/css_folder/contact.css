@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: -1px;
+    background-color: #8431CC;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 2;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+.logotext {
+    margin: auto;
+    min-width: fit-content;
+}
+
+.logotext>a {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+}
+
+.navtext {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+    margin-right: 5vw;
+    align-items: center;
+}
+
+.navtext>div>a {
+    padding: 5px;
+    background-color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    box-shadow: gray 5px 5px 10px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    top: 30px;
+    min-width: fit-content;
+    background-color: white;
+    z-index: 2;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdowncontent>a {
+    font-size: 1vw;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.dropdown:hover>.dropdowncontent {
+    display: block;
+    border-radius: 10px;
+}
+
+.dropdowncontent>a:hover {
+    color: white;
+    background-color: #8431CC;
+    border-radius: 10px;
+}
+
+.contactlink :hover {
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+form {
+    padding-top: 50px;
+}
+
+fieldset {
+    width: max-content;
+    margin: auto;
+    background-color: #F3EFFE;
+}
+
+legend {
+    font-size: 2vw;
+}
+
+.hdtext>p {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.hdtextline2 {
+    display: flex;
+    gap: 5px;
+}
+
+#country {
+    max-width: 170px;
+}
+
+#btn {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 160px;
+    background-color: #8431CC;
+    color: white;
+    border: 1px solid #8431CC;
+    border-radius: 2vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.map {
+    margin: 50px;
+    text-align: center;
+    border: #8431CC solid 5px;
+    background-color: #F3EFFE;
+}
+
+.map>h1 {
+    width: fit-content;
+    margin: auto;
+    padding: 30px;
+    font-size: 3vw;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+}
+
+.footer {
+    padding: 7vw;
+}
+
+.container4 {
+    text-align: center;
+    align-items: center;
+    background-color: #F3EFFE;
+}
+
+.container4>div>h1 {
+    font-size: 3vw;
+    color: #8431CC;
+}
+
+.emailbox {
+    display: inline;
+    margin: auto;
+}
+
+.email {
+    width: 30%;
+    margin: 10px 0 10px 0;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+.submit {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #8431CC;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.5vw;
+    border: none;
+}
+
+.footerlink>a {
+    align-items: center;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+
+.socialbar2 {
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    align-items: center;
+}
+
+.fbpng {
+    border: #8431CC solid 2px;
+    padding: 1vw 1.5vw;
+    border-radius: 50px;
+}
+
+.igpng {
+    border: #8431CC solid 2px;
+    padding: 1vw 1.2vw;
+    border-radius: 50px;
+}
+
+.githubpng {
+    border: #8431CC solid 2px;
+    padding: .5vw .7vw;
+    border-radius: 50px;
+}
+
+.socialbar2>div>a>img {
+    width: 100%;
+}
+
+.socialbar2 :hover {
+    background-color: #EDD8FF;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:500px) {
+    .logotext>a {
+        font-size: 4vw;
+    }
+
+    .navtext>div>a {
+        font-size: 4vw;
+    }
+
+    .dropdowncontent>a {
+        font-size: 4vw;
+    }
+
+    legend {
+        font-size: 4vw;
+    }
+
+    .map>h1 {
+        font-size: 4vw;
+    }
+
+    iframe {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .container4>div>h3 {
+        font-size: 2vw;
+    }
+
+    .submit {
+        font-size: 2vw;
+    }
+
+    .email {
+        padding: 20px;
+    }
+
+    .fbpng {
+        border: none;
+
+    }
+
+    .igpng {
+        border: none;
+
+    }
+
+    .githubpng {
+        border: none;
+    }
+}
