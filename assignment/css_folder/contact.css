@@ -90,8 +90,15 @@ body {
     background-color: lightgray;
 }
 
-form {
-    padding-top: 50px;
+.contactme {
+    text-align: center;
+    padding: 50px 30px 10px 30px;
+    background-color: #EDD8FF;
+    margin-bottom: 30px;
+}
+
+.contactme>h1 {
+    font-size: 3vw;
 }
 
 fieldset {
@@ -118,18 +125,17 @@ legend {
     max-width: 170px;
 }
 
-#btn {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    margin-left: 160px;
+.btn{
+    text-align: center;
+}
+
+.btn>input {
+    margin: 5px 5px;
     background-color: #8431CC;
     color: white;
     border: 1px solid #8431CC;
     border-radius: 2vw;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 5px 8px;
 }
 
 .map {
@@ -242,6 +248,11 @@ iframe {
     .dropdowncontent>a {
         font-size: 4vw;
     }
+
+    .contactme>h1 {
+        font-size: 4vw;
+    }
+    
 
     legend {
         font-size: 4vw;
