@@ -6,11 +6,12 @@
     <title>Submitted-Form</title>
 </head>
 <body>
-    You Got Message From: <?php echo $_POST["firstname"];?> 
-    <?php echo $_POST["lastname"];?><br>
-    Email: <?php echo $_POST["email"];?><br>
-    Phone: <?php echo $_POST["phone"];?><br><br>
-    Message: <br>
+    <h1>You Got Message From: </h1>
+    <?php echo $_POST["firstname"];?> 
+    <?php echo $_POST["lastname"];?>
+    <h1>Email: </h1> <?php echo $_POST["email"];?>
+    <h1>Phone: </h1> <?php echo $_POST["phone"];?>
+    <h1>Message: </h1>
     <?php echo $_POST["text"];?>
 </body>
 </html>
