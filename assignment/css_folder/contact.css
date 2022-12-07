@@ -102,18 +102,19 @@ body {
 }
 
 fieldset {
-    width: 50%;
+    width: 40%;
     margin: auto;
     background-color: #F3EFFE;
+    border: #8431CC solid 5px;
 }
 
 legend {
     font-size: 2vw;
 }
 
-input,
+input[type=text],input[type=email1],
 textarea {
-    width: 90%;
+    width: 98%;
 }
 
 .hdtext>p {
@@ -123,7 +124,7 @@ textarea {
 
 .hdtextline2 {
     display: flex;
-    gap: 5px;
+    gap: 30px;
 }
 
 #country {
