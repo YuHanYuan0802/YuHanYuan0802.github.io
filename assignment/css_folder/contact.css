@@ -102,13 +102,17 @@ body {
 }
 
 fieldset {
-    width: max-content;
+    width: 50%;
     margin: auto;
     background-color: #F3EFFE;
 }
 
 legend {
     font-size: 2vw;
+}
+
+input,textarea{
+    width: 90%;
 }
 
 .hdtext>p {
@@ -253,10 +257,14 @@ iframe {
         font-size: 4vw;
     }
     
-
     legend {
         font-size: 4vw;
     }
+
+    
+.hdtextline2 {
+    display: block;
+}
 
     .map>h1 {
         font-size: 4vw;
