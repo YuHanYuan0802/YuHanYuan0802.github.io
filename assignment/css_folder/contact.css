@@ -111,7 +111,8 @@ legend {
     font-size: 2vw;
 }
 
-input,textarea{
+input,
+textarea {
     width: 90%;
 }
 
@@ -129,7 +130,7 @@ input,textarea{
     max-width: 170px;
 }
 
-.btn{
+.btn {
     text-align: center;
 }
 
@@ -256,15 +257,14 @@ iframe {
     .contactme>h1 {
         font-size: 4vw;
     }
-    
+
     legend {
         font-size: 4vw;
     }
 
-    
-.hdtextline2 {
-    display: block;
-}
+    .hdtextline2 {
+        display: block;
+    }
 
     .map>h1 {
         font-size: 4vw;
@@ -291,12 +291,10 @@ iframe {
 
     .fbpng {
         border: none;
-
     }
 
     .igpng {
         border: none;
-
     }
 
     .githubpng {
