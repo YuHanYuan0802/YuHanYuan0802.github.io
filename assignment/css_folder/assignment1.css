@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin: 0 10px 0 10px;
+    padding-top: 30px;
 }
 
 .content>h1 {
