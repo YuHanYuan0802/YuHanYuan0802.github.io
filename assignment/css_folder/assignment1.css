@@ -82,6 +82,7 @@ body {
 
 @media screen and (max-width:500px) {
     .hdcontent {
+        padding-top: 30px;
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
