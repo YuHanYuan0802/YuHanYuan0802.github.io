@@ -81,6 +81,10 @@ body {
     font-size: 1.5vw;
 }
 
+.socialbar>div>a>img{
+    width: 100%;
+}
+
 @media screen and (max-width:500px),(max-width:800px) {
     .hdcontent {
         padding-top: 30px;
@@ -111,10 +115,6 @@ body {
 
     .hdbar>div>h3 {
         font-size: 4vw;
-    }
-
-    .socialbar>div>a>img {
-        width: 50%;
     }
 }
 
