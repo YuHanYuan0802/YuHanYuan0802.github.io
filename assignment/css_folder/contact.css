@@ -75,7 +75,7 @@ iframe {
     border: none;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:500px),(max-width:800px) {
     .contactme>h1 {
         font-size: 4vw;
     }

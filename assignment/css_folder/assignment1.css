@@ -81,7 +81,7 @@ body {
     font-size: 1.5vw;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:500px),(max-width:800px) {
     .hdcontent {
         padding-top: 30px;
         display: flex;
@@ -89,20 +89,28 @@ body {
         text-align: center;
     }
 
+    .content>h1 {
+        font-size: 5vw;
+    }
+
     .content>img {
         width: 50%;
     }
 
     .hdcontent>.content>p {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     .hdabt>a {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     .hdbar>div>p {
-        font-size: 1vw;
+        font-size: 4vw;
+    }
+
+    .hdbar>div>h3 {
+        font-size: 4vw;
     }
 
     .socialbar>div>a>img {
@@ -201,7 +209,7 @@ body {
     font-size: 1.5vw;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:500px),(max-width:800px) {
     .flextable {
         flex-direction: column;
     }
@@ -308,7 +316,7 @@ body {
     font-size: 1.5vw;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:500px),(max-width:800px) {
     .container3 {
         display: flex;
         flex-direction: column;

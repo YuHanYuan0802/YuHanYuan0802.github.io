@@ -73,7 +73,7 @@
     background-color: lightgray;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
     .hdcontent {
         display: flex;
         flex-direction: column-reverse;
@@ -178,9 +178,13 @@
 }
 
 @media screen and (max-width:800px) {
+    .container4>div>h1 {
+        font-size: 5vw;
+        color: #8431CC;
+    }
 
     .container4>div>h3 {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .submit {
@@ -193,7 +197,6 @@
 
     .fbpng {
         border: none;
-
     }
 
     .igpng {
