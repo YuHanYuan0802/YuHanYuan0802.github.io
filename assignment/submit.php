@@ -13,5 +13,7 @@
     <h1>Phone: </h1> <?php echo $_POST["phone"];?>
     <h1>Message: </h1>
     <?php echo $_POST["text"];?>
+    <h1>Subscribed: </h1>
+    <?php echo $_POST["subemail"];?>
 </body>
 </html>
